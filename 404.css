@@ -70,8 +70,8 @@ button:hover{
     }
 
     button {
-        font-size: 20px;
-        margin: 10px 0px 0px 40px;
+        font-size: 30px;
+        margin: 10px 0px 0px 25px;
         
     }
 
@@ -81,7 +81,8 @@ button:hover{
     }
 
     .name {
-        margin: 0px 0px 0px 35px;
+        font-size: 30px;
+        margin: 0px 0px 0px 45px;
     }
    
   }
