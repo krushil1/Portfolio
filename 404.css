@@ -16,7 +16,7 @@ html, body {
     background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/autumn-in-the-white-mountains-of-new-hampshire-royalty-free-image-841380450-1531931081.jpg?crop=1.00xw:0.755xh;0,0.202xh&resize=1200:*");
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 80px;
+    font-size: 70px;
     font-family: sans-serif;
 }
 
@@ -47,7 +47,6 @@ button, a{
     background: #4070F4;
     color: #fff;
     padding: 10px;
-    font-size: 30px;
     border-radius: 5px;
     position: relative;
     box-sizing: border-box;
@@ -71,12 +70,13 @@ button:hover{
     .error {
         padding: 10px 0px 40px 0px;
         margin: auto; 
-        font-size: 80px;
+        font-size: 50px;
         text-align: center;
     }
 
-    .button {
-        margin: 10px 0px 0px 50px;
+    button {
+        font-size: 20px;
+        margin: 10px 0px 0px 40px;
         
     }
 
@@ -86,7 +86,7 @@ button:hover{
     }
 
     .name {
-        margin: 0px 0px 0px 70px;
+        margin: 0px 0px 0px 35px;
     }
    
   }
@@ -104,6 +104,7 @@ button:hover{
     
     button {
         margin: 25px 0px 0px 0px;
+        font-size: 30px;
     }
 
     .error1{
