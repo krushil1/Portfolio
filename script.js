@@ -44,6 +44,8 @@ sr.reveal('.skills__img',{delay: 600});
 
 sr.reveal('.work',{interval: 200}); 
 
+sr.reveal('.mentor',{interval: 200}); 
+
 sr.reveal('.contact__input',{interval: 200}); 
 
 
