@@ -21,12 +21,14 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 2000,
     reset: true
 });
+
 
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
@@ -39,15 +41,16 @@ sr.reveal('.about__text',{delay: 400});
 
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{interval: 200}); 
-sr.reveal('.skills__img',{delay: 600});
+sr.reveal('.skills__data',{delay: 200}); 
+sr.reveal('.skills__img',{delay: 10});
 
-sr.reveal('.work',{interval: 200}); 
+sr.reveal('.work',{delay: 10}); 
 
-sr.reveal('.mentor',{interval: 200}); 
+sr.reveal('.mentor',{delay: 100}); 
 
 sr.reveal('.contact__input',{interval: 200}); 
 
+sr.reveal('.project', {delay: 200});
 
 
 
