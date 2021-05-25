@@ -1,4 +1,10 @@
+body {
+  overflow:visible !important;
+  scroll-behavior: smooth;
+}
+
 /*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root{
@@ -505,4 +511,26 @@ body {
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.work-icons {
+  color: #4070F4;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+
+.project-section {
+  margin-top: 5vh;
+  padding: 10px 20px;
+  color: rgba(243, 237, 237, 0.596);
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  text-shadow: 3px 1px 0 #4070F4;
+}
+
+.project-title {
+  font-size: 5vh;
 }
